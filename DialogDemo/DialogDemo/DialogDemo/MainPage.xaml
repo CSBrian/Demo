@@ -16,7 +16,9 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
+                
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -36,6 +38,10 @@
             <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="AntiqueWhite"></BoxView>
             <BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="Bisque"></BoxView>
             <BoxView Grid.Row="2" Grid.Column="3" BackgroundColor="Aquamarine"></BoxView>
+            <BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="Beige"></BoxView>
+            <BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="AntiqueWhite"></BoxView>
+            <BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="Bisque"></BoxView>
+            <BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="Aquamarine"></BoxView>
         </Grid>
     </ScrollView>
 </ContentPage>
