@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -18,16 +19,19 @@ namespace DialogDemo
 
         protected override void OnStart()
         {
+            Debug.WriteLine("Start");           
             // Handle when your app starts
         }
 
         protected override void OnSleep()
         {
+            Debug.WriteLine("Sleep");
             // Handle when your app sleeps
         }
 
         protected override void OnResume()
         {
+            Debug.WriteLine("Resume");
             // Handle when your app resumes
         }
     }
