@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pokemonto.DetailsPage"
+             Title="Detail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition />
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Detail information" FontSize="18" HorizontalTextAlignment="Center"/>
+                <Image x:Name="imgpoke" BackgroundColor="Azure" Grid.Row="1" Grid.ColumnSpan="2" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center"/>
+                <Label Text="Name: " Grid.Row="2" Grid.Column="0"/>
+                <Label x:Name="lblName" Text="name" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Weight: " Grid.Row="3" Grid.Column="0"/>
+                <Label x:Name="lblWeight" Text="name" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Height: " Grid.Row="4" Grid.Column="0"/>
+                <Label x:Name="lblHeight" Text="name" Grid.Row="4" Grid.Column="1"/>
+                <Label x:Name="lblDescription"  Text="The advantage of using the asynchronous SQLite.Net API is that database operations are moved to background threads. In addition, there's no need to write additional concurrency handling code because the API takes care of it." 
+                       Grid.Row="5" Grid.ColumnSpan="2"/>
+                <Button Text="View on website" Grid.Row="6" Grid.Column="0" HorizontalOptions="Center" Clicked="Button_Clicked_1"/>
+                <Button Text="Back" Grid.Row="6" Grid.Column="1" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+            </Grid> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
