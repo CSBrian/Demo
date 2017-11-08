@@ -11,7 +11,7 @@
 namespace DialogDemo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("J:\\XProject\\DialogDemo\\DialogDemo\\DialogDemo\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("J:\\Demo\\DialogDemo\\DialogDemo\\DialogDemo\\DialogDemo\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

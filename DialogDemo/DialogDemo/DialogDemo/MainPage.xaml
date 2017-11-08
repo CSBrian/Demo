@@ -11,4 +11,26 @@
             <Button Text="Click" Clicked="Button_Clicked" Margin="0,40"/>
         </StackLayout>
     </ContentPage.Content>
+    <!--<Grid BackgroundColor="red">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <BoxView BackgroundColor="red" Grid.Row="0" Grid.Column="0"/>
+
+        --><!--<BoxView BackgroundColor="cyan" HeightRequest="500" WidthRequest="200">
+
+        </BoxView>
+        <BoxView BackgroundColor="DarkBlue" HeightRequest="500" WidthRequest="200">
+
+        </BoxView>--><!--
+    </Grid>-->
 </ContentPage>
