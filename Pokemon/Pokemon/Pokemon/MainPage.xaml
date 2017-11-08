@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Pokemonto"
+             Title="Main"
+             x:Class="Pokemonto.MainPage">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            <Label Text="Pokemon"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtInput" Placeholder="input info" Margin="30,0"/>
+            <Button Text="find" BorderColor="Bisque" BorderRadius="10"  HorizontalOptions="Center" Clicked="ButtonFind_Clicked"/>
+            <Label x:Name="lblName" Text="..." HorizontalTextAlignment="Center" />
+            <Image x:Name="imgPoke"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   BackgroundColor="Azure"
+                   HorizontalOptions="Center"/>
+            <Grid Margin="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btnViewDetail" Text="View Detail" Clicked="btnViewDetail_Clicked" BorderRadius="10"  Grid.Row="0" Grid.Column="0"/>
+                <Button x:Name="btnExit" Text="Exit" BorderRadius="10"  Grid.Row="0" Grid.Column="1" Clicked="btnExit_Clicked"/>
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
